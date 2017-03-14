@@ -10,7 +10,7 @@ import Bar from '@/components/Bar'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   base: __dirname,
   routes: [
     { path: '/', component: Home },
