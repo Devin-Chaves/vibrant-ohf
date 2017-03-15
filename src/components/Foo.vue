@@ -2,46 +2,33 @@
   <div class="foo">
     <div class="box-wrapper">
 
-      <div class="box">
+      <div class="box box--wide">
         <div class="copy">
         </div>
         <div class="cta">
-          <router-link to="bar"><button>Foo</button></router-link>
+
         </div>
       </div>
       <div class="box">
         <div class="copy">
         </div>
         <div class="cta">
-          <router-link to="bar"><button>Foo</button></router-link>
+
         </div>
       </div>
+
       <div class="box">
         <div class="copy">
         </div>
         <div class="cta">
-          <router-link to="bar"><button>Foo</button></router-link>
+
         </div>
       </div>
-      <div class="box">
+      <div class="box box--wide">
         <div class="copy">
         </div>
         <div class="cta">
-          <router-link to="bar"><button>Foo</button></router-link>
-        </div>
-      </div>
-      <div class="box">
-        <div class="copy">
-        </div>
-        <div class="cta">
-          <router-link to="bar"><button>Foo</button></router-link>
-        </div>
-      </div>
-      <div class="box">
-        <div class="copy">
-        </div>
-        <div class="cta">
-          <router-link to="bar"><button>Foo</button></router-link>
+
         </div>
       </div>
     <div class="box">
@@ -65,7 +52,7 @@
 
       </div>
     </div>
-  </div>
+    </div>
 </div>
 </template>
 
@@ -74,5 +61,4 @@ export default {
 }
 </script>
 
-<style lang="css">
-</style>
+<style></style>

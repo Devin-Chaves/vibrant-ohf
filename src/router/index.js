@@ -17,8 +17,8 @@ export default new Router({
     { path: '/parent', component: Parent,
       children: [
         { path: '', component: Default },
-        { path: 'foo', component: Foo },
-        { path: 'bar', component: Bar }
+        { path: 'market-cap', component: Foo, name: 'foo'},
+        { path: 'savvy-investors', component: Bar, name: 'bar' }
       ]
     }
   ]
