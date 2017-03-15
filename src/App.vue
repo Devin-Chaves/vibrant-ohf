@@ -6,6 +6,13 @@
         <li><router-link to="/parent" exact>/parent</router-link></li>
         <li><router-link :to="{name: 'foo'}">/parent/market-cap</router-link></li>
         <li><router-link :to="{name: 'bar'}">/parent/savvy-investors</router-link></li>
+        <li><router-link :to="{name: 'baz'}">/parent/investment-opportunities</router-link></li>
+        <li><router-link :to="{name: 'baq'}">/parent/diminishing-investments</router-link></li>
+        <li><router-link :to="{name: 'buz'}">/parent/middle-class</router-link></li>
+        <li><router-link :to="{name: 'buq'}">/parent/emerging-markets</router-link></li>
+        <li><router-link :to="{name: 'bam'}">/parent/developed-markets</router-link></li>
+        <li><router-link :to="{name: 'fizz'}">/parent/silicon-valley</router-link></li>
+
       </ul>
       <transition name="fade" mode="out-in">
         <router-view class="view"></router-view>
