@@ -5,8 +5,7 @@
       <div class="box box--wide">
         <div class="copy">
           <div class="big">Reality:</div>
-          <div>Market cap is influenced by gossip, panic, and the 24-hour news cycle. Revenue isn’t emotional,
-so it can be a truer indicator of a company’s success.</div>
+          <div>Market cap is influenced by gossip, panic and the 24-hour news cycle. Revenue isn’t emotional, so it can be a truer indicator of a company’s success.</div>
         </div>
         <div class="cta">
 
@@ -23,7 +22,7 @@ so it can be a truer indicator of a company’s success.</div>
 
       <div class="box flex-start">
         <div class="copy">
-          <span>“When you buy the S&P 500, you’re buying emotion and panic in what the marketplace reflects.” </span>
+          <span>“When you buy the S&P 500, you’re buying emotion and panic in what the marketplace reflects.”</span>
           <span class="green-text tiny">-Sharon French <br> Head of Beta Solutions</span>
         </div>
         <div class="cta">

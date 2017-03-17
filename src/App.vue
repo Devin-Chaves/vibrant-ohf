@@ -84,7 +84,7 @@ body {
     display: inline-block;
     font-size:12px;
     line-height:1.5;
-    padding: 16px 0
+    padding: 8px 0
   }
   .box {
     display: flex;
