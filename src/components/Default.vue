@@ -6,7 +6,7 @@
         <div class="copy">
           <span>"Silicon Valley is the future of tech."</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--primary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--primary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -14,7 +14,7 @@
         <div class="copy">
           <span>"Seniors <br> are a <span class="green-text">diminishing investment</span> opportunity."</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--secondary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
         <div class="copy">
           <span>"Savvy investors respond to <br> every headline."</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--primary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'savvy-investors'}"><a class="Button Button--primary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -30,7 +30,7 @@
         <div class="copy">
           <span><span class="green-text">"Emergining Markets <br></span>aren't ready for prime time."</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--secondary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@
         <div class="copy">
           <span><span class="green-text">"Investment opportunities</span> disappear during volatility"</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--secondary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@
         <div class="copy">
           <span><span class="green-text">"Market cap <br></span> is reliable and dispassionate"</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--secondary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
         <div class="copy">
           <span>"Developed markets are reliable. Emerging markets are risky."</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--primary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--primary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@
         <div class="copy">
           <span>"The <span class="green-text">middle <br> class is shrinking</span> globally."</span>
           <div class="cta">
-            <router-link to="bar"><a class="Button Button--secondary">CHALLENGE</a></router-link>
+            <router-link :to="{name: 'market-cap'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>

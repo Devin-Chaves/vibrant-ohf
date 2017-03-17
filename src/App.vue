@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-      <h1>Transitions</h1>
       <ul>
         <li><router-link to="/" exact>/</router-link></li>
-        <li><router-link to="/parent" exact>/parent</router-link></li>
-        <li><router-link :to="{name: 'foo'}">/parent/market-cap</router-link></li>
-        <li><router-link :to="{name: 'bar'}">/parent/savvy-investors</router-link></li>
-        <li><router-link :to="{name: 'baz'}">/parent/investment-opportunities</router-link></li>
-        <li><router-link :to="{name: 'baq'}">/parent/diminishing-investments</router-link></li>
-        <li><router-link :to="{name: 'buz'}">/parent/middle-class</router-link></li>
-        <li><router-link :to="{name: 'buq'}">/parent/emerging-markets</router-link></li>
-        <li><router-link :to="{name: 'bam'}">/parent/developed-markets</router-link></li>
-        <li><router-link :to="{name: 'fizz'}">/parent/silicon-valley</router-link></li>
+        <li><router-link to="/challenge" exact>/challenge</router-link></li>
+        <li><router-link :to="{name: 'market-cap'}">/challenge/market-cap</router-link></li>
+        <li><router-link :to="{name: 'savvy-investors'}">/challenge/savvy-investors</router-link></li>
+        <li><router-link :to="{name: 'investment-opportunities'}">/challenge/investment-opportunities</router-link></li>
+        <li><router-link :to="{name: 'diminishing-investments'}">/challenge/diminishing-investments</router-link></li>
+        <li><router-link :to="{name: 'middle-class'}">/challenge/middle-class</router-link></li>
+        <li><router-link :to="{name: 'emerging-markets'}">/challenge/emerging-markets</router-link></li>
+        <li><router-link :to="{name: 'developed-markets'}">/challenge/developed-markets</router-link></li>
+        <li><router-link :to="{name: 'silicon-valley'}">/challenge/silicon-valley</router-link></li>
 
       </ul>
       <transition name="fade" mode="out-in">
@@ -27,6 +26,27 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  background: black;
+}
+.challenge {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  margin-top: 10px;
+  width: 250px;
+  height: 790px;
+}
+.box-wrapper {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+.box:not(:last-of-type) {
+  margin-right: 10px;
+}
 
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s ease;
@@ -50,15 +70,15 @@ export default {
   transform: translate(-30px, 0);
 }
 .router-link-active {
-  color: #bfd916;
+  color: #bad61e;
 }
   .green-text {
-    color: #bfd916;
+    color: #bad61e;
   }
   .big {
-    font-size: 32px;
+    font-size: 30px;
     text-transform:uppercase;
-    font-weight:bold;
+    font-weight: 800;
   }
   .tiny {
     display: inline-block;
@@ -67,7 +87,13 @@ export default {
     padding: 16px 0
   }
   .box {
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+    height: 240px;
+    width: 250px;
+    border: solid 1px #bad61e;
+
 
     &--primary {
       background: white;
@@ -77,12 +103,26 @@ export default {
       color: white;
       background: black;
     }
+    &--wide {
+      width: 512px;
+      background: #bad61e;
+      color: black;
+      display: flex;
+      align-items: center;
+      .copy{
+        padding: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .big {
+          margin-right: 48px;
+        }
+      }
+    }
   }
   .copy {
-    position: absolute;
-    bottom: 0;
     padding: 0 20px;
-    font-size: 24px;
+    font-size: 20px;
   }
   .cta {
     padding: 18px 0;
@@ -122,10 +162,10 @@ export default {
   white-space: nowrap;
   &--primary {
     background: black;
-    color: #bfd916;
+    color: #bad61e;
     }
   &--secondary {
-    background: #bfd916;
+    background: #bad61e;
     color: black;
     }
   }

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="parent">
+  <div class="challenge">
     <!-- <div class="box-wrapper">
 
       <div class="box">
@@ -68,7 +68,7 @@
   </div> -->
     <!-- <h2>Parent</h2> -->
     <div class="sidebar">
-
+      <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
     </div>
     <transition :name="transitionName">
       <router-view class="child-view"></router-view>
@@ -93,36 +93,9 @@ export default {
 </script>
 
 <style lang="scss">
-body {
-  background: black;
-}
-.parent {
-  display: flex;
-  flex-direction: row;
-}
-.sidebar {
-  margin-top: 32px;
-  width: 250px;
-  height: 790px;
-  border: solid 1px #bfd916;
-}
-.box-wrapper {
-  display: flex;
-  flex: 0 1 auto;
-  flex-wrap: wrap;
-  max-width: 900px;
-}
-.box {
-  margin-top: 32px;
-  height: 240px;
-  width: 250px;
-  border: solid 1px #bfd916;
 
-  &--wide {
-    width: 532px;
-  }
+.sidebar img {
+  max-width: 100%;
 }
-.box:not(:last-of-type) {
-  margin-right: 32px;
-}
+
 </style>
