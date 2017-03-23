@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="home">
-      <h2>Home</h2>
-      <p>hello</p>
+      <router-link to='/challenge'><img src="static/img/opp_hands.png" alt="">
+      </router-link>
     </div>
 </template>
 
@@ -10,5 +10,12 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
+  .home {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 </style>

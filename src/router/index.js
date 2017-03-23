@@ -22,10 +22,10 @@ export default new Router({
   mode: 'hash',
   base: __dirname,
   routes: [
-    { path: '/', component: Home },
+    { path: '/', component: Home, name: 'home' },
     { path: '/challenge', component: Challenge,
       children: [
-        { path: '', component: Default },
+        { path: '', component: Default, name: 'challenge'},
         { path: 'market-cap', component: MarketCap, name: 'market-cap'},
         { path: 'savvy-investors', component: SavvyInvestors, name: 'savvy-investors'},
         { path: 'investment-opportunities', component: InvestmentOpportunities, name: 'investment-opportunities'},

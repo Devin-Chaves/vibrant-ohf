@@ -9,6 +9,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "fontfaceobserver": "^2.0.9",
+    "jquery": "^3.2.1",
+    "sass-loader": "^6.0.3",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.15.0",
     "vue": "^2.2.2",
     "vue-router": "^2.2.0"
   },
