@@ -26,17 +26,8 @@ export default {
 </script>
 
 <style lang="scss">
-@font-face {
-  font-family: pragmatica-conde;
-  font-weight: bold;
-  src: url('/static/fonts/PragmaticaCond-Extrabold.woff') format('woff');
-}
-@font-face {
-  font-family: PragmaticaCond;
-  src: url('/static/fonts/PragmaticaCond-Book.woff') format('woff');
-}
 html, body {
-  font-family: 'pragmatica-condensed', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'PragmaticaW01-Condensed1061371', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: white;
 }
 
@@ -51,13 +42,11 @@ ul {
 }
 
 a {
-  color: #ababab;
+  color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
-a:hover {
-  color: #bfd916;
-}
 body {
   background: black;
 }
@@ -87,7 +76,8 @@ body {
 .child-view {
   position: absolute;
   transition: all .5s cubic-bezier(.55,0,.1,1);
-  margin-left: 260px;
+  margin-left: 200px;
+  max-width: 650px;
 }
 .slide-left-enter, .slide-right-leave-active {
   opacity: 0;
@@ -106,18 +96,24 @@ body {
     color: #bad61e;
   }
   .big {
-    font-size: 26px;
+    font-family:'PragmaticaW01-Condensed1061365';;
+    font-size: 22px;
     text-transform:uppercase;
     font-weight: 800;
     line-height: .9;
   }
+  strong {
+    font-family:'PragmaticaW01-Condensed1061371';
+  }
   .tiny {
+    font-family:'PragmaticaW01-CondLight';
     display: inline-block;
     font-size:10px;
     line-height:1.5;
     padding: 8px 0;
   }
   .box {
+    position: relative;
     display: flex;
     align-items: flex-end;
     margin-top: 10px;
@@ -167,7 +163,7 @@ body {
     }
   }
   .cta {
-    padding-top: 10px;
+    padding-top: 16px;
     text-align: left;
     a {
       .is-black {
@@ -215,6 +211,12 @@ body {
     .copy {
       padding-left: 15px;
     }
+    overflow: scroll;
+  }
+  .morningstar {
+    display: inline-block;
+    font-size: 8px;
+    line-height: 1.3;
   }
   .image {
     position: relative;
@@ -223,7 +225,7 @@ body {
       font-size: 8px;
       left: 10px;
       color: black;
-      font-weight: 600;
+      font-weight: 400;
     }
     .name {
       font-size: 12px;
@@ -247,10 +249,6 @@ body {
     display: flex;
     flex-direction: row;
     margin: -1px;
-    .big {
-      font-size: 22px;
-      line-height: 1.1
-    }
   }
   .challenge-index {
     padding: 20px;
@@ -273,4 +271,79 @@ body {
     display: flex;
     align-items: flex-start;
   }
+
+  .fat-child {
+    padding-left: 15px;
+  }
+
+  .tiny {
+    font-weight: 200;
+  }
+  .disclosure-open {
+    position: absolute;
+    bottom: 7px;
+    right: 17px;
+    font-size: 7px;
+    font-weight: 200;
+  }
+
+  .disclosure {
+    display: none;
+    overflow: scroll;
+    padding: 30px 15px 0 5px;
+    background: black;
+    position: absolute;
+    max-width: 190px;
+    max-height: 180px;
+    .large {
+      display: inline-block;
+      font-size: .71rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.25
+    }
+    .small {
+      font-family:'PragmaticaW01-CondLight';
+      padding-top: 8px;
+      display: inline-block;
+      font-size: 8px;
+      line-height: 1.2;
+      font-weight: 200;
+      padding-bottom: 40px;
+      }
+    }
+    .disclosure-buttons {
+      display: none;
+    }
+  .close {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    img {
+      height: 10px;
+    }
+  }
+  .updown {
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    img {
+      height: 20px;
+    }
+  }
+  .is-opened {
+    display: block;
+  }
+  .is-closed {
+    display: none;
+  }
+  .instruments {
+    display: inline-block;
+    padding-top: 10px;
+  }
+  .stars {
+    height: 15px;
+    padding: 3px 0;
+  }
+
 </style>

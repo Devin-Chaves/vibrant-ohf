@@ -9,16 +9,19 @@
         </div>
       </div>
       <div class="box">
-        <div class="copy challenge">
-          <span class="big"><span class="green-text">Challenge</span><br>labels.</span>
-        </div>
+        <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+          <div class="copy challenge">
+            <span class="big"><span class="green-text">Challenge</span><br>labels.</span>
+          </div></a>
       </div>
 
       <div class="box etf flex-start">
-        <div class="copy copy--secondary">
-          <span>You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
-          <span class="green-text tiny">-Hemant Baijal <br> Co-Head, Global Debt Team</span>
-        </div>
+        <a href="http://www.oppenheimerfunds.com/advisors/article/internationalview-built-on-localknowledge" target="_blank">
+          <div class="copy copy--secondary">
+            <span>You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
+            <span class="green-text tiny">-Hemant Baijal <br> Co-Head, Global Debt Team</span>
+          </div>
+        </a>
       </div>
       <div class="box box--wide box--video">
         <div class="videoholder" id="videoHolder">
@@ -31,25 +34,53 @@
         </div>
       </div>
     <div class="box etf">
-      <div class="copy">
-        <span>Oppenheimer International Bond Fund <span class="green-text">(OIBYX)</span></span><br><br>
-        <span class="green-text">
-          <div class="star"></div>
+      <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank">
+        <div class="copy">
+          <span>Oppenheimer International Bond Fund <span class="green-text">(OIBYX)</span></span><br><br>
+          <span class="green-text">
+            <div class="star"></div>
+          </span>
+          <span class="exciting">Invest in countries with surprising opportunities.</span>
+        </div>
+      </a>
+      <div class="disclosure" id="disclosure">
+        <span>
+          <span class="large">Carefully consider fund investment objectives, risks, charges and expenses. Visit oppenheimerfunds.com or call your advisor
+            for a prospectus with this and other fund information. Read it carefully before investing.
+          </span> <br>
+          <span class="small">
+            Fixed income investing entails credit and interest rate risks. When interest rates rise, bond prices generally fall, and the Fund's share prices can fall.
+            Foreign investments may be volatile and involve additional expenses and special risks, including currency fluctuations, foreign taxes, regulatory and
+            geopolitical risks. Emerging and developing market investments may be especially volatile. Small and mid-sized company stock is typically more
+            volatile than that of larger company stock. It may take a substantial period of time to realize a gain on an investment if any gain is realized at all.
+            <br><br>©2017 OppenheimerFunds Distributor, Inc.
+          </span>
         </span>
-        <span class="exciting">Invest in countries with surprising opportunities.</span>
       </div>
+      <div id="disclosure-buttons" class="disclosure-buttons">
+        <div class="close" id="close" @click="closeDisclosure">
+          <img src="static/img/close.png" alt="Close">
+        </div>
+        <div class="updown">
+          <img src="static/img/up_down.png" alt="Scroll">
+        </div>
+      </div>
+        <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
+          Disclosure >
+        </span>
     </div>
     <div class="box">
-      <div class="image hemant">
-        <span class="tiny image-meta"><span class="name">Hemant&nbsp;Baijal</span> <br> Co-Head, <br> Global Debt Team</span>
-        <img src="static/img/hemant_baijal.jpg" alt="George Evans">
-      </div>
+      <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank"><div class="image hemant">
+          <span class="tiny image-meta"><span class="name">Hemant&nbsp;Baijal</span> <br> Co-Head, <br> Global Debt Team</span>
+          <img src="static/img/hemant_baijal.jpg" alt="George Evans">
+        </div></a>
     </div>
     <div class="box">
-      <div class="image challenge">
-        <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
-        <img src="static/img/challenge_index.jpg" alt="Level II Tape">
-      </div>
+      <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+        <div class="image challenge">
+          <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
+          <img src="static/img/challenge_index.jpg" alt="Level II Tape">
+        </div></a>
     </div>
   </div>
 </div>
@@ -66,17 +97,28 @@ export default {
        } else {
           x.pause();
           }
-        }
-      }
+      },
+    displayDisclosure() {
+      var x = document.getElementById('disclosure-buttons')
+      var y = document.getElementById('disclosure');
+      var z = document.getElementById('disclosure-open')
+      x.classList.add('is-opened')
+      y.classList.add('is-opened');
+      z.classList.add('is-closed');
+    },
+    closeDisclosure() {
+      var x = document.getElementById('disclosure-buttons')
+      var y = document.getElementById('disclosure')
+      var z = document.getElementById('disclosure-open')
+      x.classList.remove('is-opened')
+      y.classList.remove('is-opened')
+      z.classList.remove('is-closed')
     }
+    }
+  }
 </script>
 
 <style lang="scss" scoped>
-  .disclosure {
-    display: inline-block;
-    font-size: 10px;
-    line-height: 1.3;
-  }
   .hemant {
     background: #f3f3f3;
     img {
@@ -85,7 +127,7 @@ export default {
     }
     .image-meta {
       top: 15%;
-      left: 5px;
+      left: 10px;
       .name {
         line-height: .1;
       }
