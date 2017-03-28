@@ -18,7 +18,7 @@
           </div></a>
       </div>
 
-      <div class="box flex-start">
+      <div class="box etf flex-start">
         <a href="http://www.oppenheimerfunds.com/advisors/article/the-smarter-way-toweight-theindex" target="_blank">
           <div class="copy copy--secondary">
             <span>“When you buy the S&P 500, you’re buying emotion and panic in what the marketplace reflects.”</span><br>

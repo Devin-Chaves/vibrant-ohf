@@ -504,7 +504,7 @@ body {
     display: inline-block;
     letter-spacing: .6px;
     font-size: 17px;
-    line-height: 1.2;
+    line-height: 1.1;
   }
   .quote--small {
 

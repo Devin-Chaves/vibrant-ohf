@@ -15,10 +15,10 @@
           </div></a>
       </div>
 
-      <div class="box flex-start">
+      <div class="box etf flex-start">
         <a href="http://www.oppenheimerfunds.com/advisors/article/understanding-howopportunities-createwealth" target="_blank">
           <div class="copy">
-            <span>“The global economy has come together at an incredible speed.”</span>
+            <span class="quote">“The global economy has come together at an incredible speed.”</span>
             <span class="green-text tiny">-George Evans <br> CIO of Equities</span>
           </div></a>
       </div>
