@@ -5,7 +5,7 @@
       <div class="box box--wide">
         <div class="copy">
           <div class="big">Reality:</div>
-          <div>Market cap is influenced by gossip, panic and the 24-hour news cycle. Revenue isn’t emotional, so it can be a truer indicator of a company’s success.</div>
+          <div>Market cap is influenced by gossip, panic and the <br>24-hour news cycle. <br> Revenue isn’t emotional, <br> so it can be a truer indicator <br> of a company’s success.</div>
         </div>
         <div class="cta">
 

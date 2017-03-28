@@ -28,21 +28,21 @@
       </div>
       <div class="box box--secondary">
         <div class="copy">
-          <span>"Emerging <br>Markets aren't <br> ready for <br> prime time."</span>
+          <span>"Emerging <br>markets aren't <br> ready for <br> prime time."</span>
           <div class="cta">
             <router-link :to="{name: 'emerging-markets'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
         </div>
       </div>
       <div class="box box--secondary">
-        <div class="copy">
+        <div class="copy" style="padding-left: 18px;">
           <span class="big">Are you up for the <span class="green-text">challenge?</span></span>
-          <span class="tiny">Challenge these misconceptions in the market</span>
+          <span class="tiny">Challenge&nbsp;these&nbsp;misconceptions in the market.</span>
         </div>
       </div>
       <div class="box box--secondary">
         <div class="copy">
-          <span>"Investment opportunities disappear <br> during volatility"</span>
+          <span>"Investment opportunities disappear <br> during volatility."</span>
           <div class="cta">
             <router-link :to="{name: 'investment-opportunities'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
@@ -50,7 +50,7 @@
       </div>
       <div class="box box--secondary">
         <div class="copy">
-          <span>"Market cap <br> is reliable and dispassionate"</span>
+          <span>"Market cap <br> is reliable and dispassionate."</span>
           <div class="cta">
             <router-link :to="{name: 'market-cap'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
@@ -88,11 +88,54 @@ export default {
      font-size: 19px;
      line-height: 1.2;
      .big {
-       font-size: 22px;
+       font-size: 27px;
      }
    }
    .tiny {
      font-size: 12px;
+     letter-spacing: .6px;
+     font-family:'PragmaticaW01-CondExtra1061383';
+   }
+ }
+ @media (max-width: 666px) {
+
+    .box {
+      display: none;
+      position: relative;
+      .copy {
+        position: absolute;
+        bottom: 0
+      }
+    }
+
+   .box:nth-of-type(2) {
+     display:block;
+     background: white;
+     color: black;
+     .cta {
+       .Button {
+         background: black;
+         color: #bad61e;
+       }
+     }
+   }
+   .box:nth-of-type(4) {
+     display: block;
+     background: white;
+     color: black;
+     .cta {
+       .Button {
+         background: black;
+         color: #bad61e;
+       }
+     }
+   }
+   .box:nth-of-type(5) {
+     order: -1;
+     display: block;
+   }
+   .box:nth-of-type(7) {
+     display: block;
    }
  }
 

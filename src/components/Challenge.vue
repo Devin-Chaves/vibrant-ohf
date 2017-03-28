@@ -68,7 +68,7 @@
   </div> -->
     <!-- <h2>Parent</h2> -->
     <div class="sidebar">
-
+      <img class="img-saver" src="static/img/oppenheimer.png" alt=""/>
       <transition name="fade">
         <router-link to='/challenge' v-if="$route.name !== 'challenge'">
           <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
@@ -86,6 +86,7 @@
       </transition>
       <div class="tiny copyright">©2017 OppenheimerFunds Distributor, Inc.</div>
     </div>
+    <div class="tiny copyright-hidden">©2017 OppenheimerFunds Distributor, Inc.</div>
     <transition :name="transitionName">
       <router-view class="child-view"></router-view>
     </transition>
@@ -116,48 +117,6 @@ export default {
 .fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
   opacity: 0
 }
-.sidebar {
-  position: relative;
-  margin-top: 10px;
-  width: 250px;
-  height: 575px;
-  margin-left: -500px;
-  .tiny {
-    display: block;
-  }
-}
 
-.sidebar img {
-  max-width: 80%;
-}
-.next-challenge {
-  position: absolute;
-  top: 50%;
-}
-.next-challenge span {
-  font-size: 24px;
-  margin-right: -20px;
-  color: white;
-}
-.arrow {
-  margin-right: 8px;
-  margin-bottom: -2px;
-  display: inline-block;
-  vertical-align: baseline;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 15px 10px 0;
-  border-color: transparent #bad61e transparent transparent;
-}
-.copyright {
-  position: absolute;
-  bottom: 0;
-}
-.challenge-open {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-65%);
-}
 
 </style>

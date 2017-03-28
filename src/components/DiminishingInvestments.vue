@@ -5,7 +5,7 @@
       <div class="box box--wide">
         <div class="copy">
           <div class="big">Reality:</div>
-          <div>Seniors are the fastest growing economic sector, accounting for $7.1 trillion in activity. And with global trends in life expectancy, this number is only expected to rise.</div>
+          <div>Seniors are the fastest growing economic sector, accounting for <br> $7.1 trillion in activity. And with global trends in life expectancy, this number is only expected to rise.</div>
         </div>
       </div>
       <div class="box">
@@ -18,7 +18,7 @@
       <div class="box etf flex-start">
         <a href="http://www.oppenheimerfunds.com/advisors/article/understanding-howopportunities-createwealth" target="_blank">
           <div class="copy">
-            <span>“Ignore the short-term noise, because <br> when you invest for <br> the long-term, you <br> see it through.” </span><br>
+            <span class="quotez">“Ignore the short-term noise, because <br> when you invest for <br> the long-term, you <br> see it through.” </span><br>
             <span class="green-text tiny">-George Evans <br> CIO of Equities</span>
           </div></a>
       </div>

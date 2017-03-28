@@ -17,7 +17,7 @@
 
       <div class="box etf flex-start">
         <a href="http://www.oppenheimerfunds.com/advisors/article/internationalview-built-on-localknowledge" target="_blank"><div class="copy">
-            <span>“Countries that have less wealth, have greater aspirations</span><br>
+            <span class="quote">“Countries that have <br> less wealth, have greater aspirations."</span><br>
             <span class="green-text tiny">-Hemant Baijal <br> Co-Head, Global Debt Team</span>
           </div></a>
       </div>
@@ -137,5 +137,14 @@ export default {
   }
   .fat-child {
     padding-left: 15px
+  }
+  .quote {
+    font-family: 'PragmaticaW01-CondLight';
+    font-size: 17px;
+  }
+  .etf {
+    span {
+      font-family: 'PragmaticaW01-CondLight'
+    }
   }
 </style>
