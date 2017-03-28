@@ -18,7 +18,7 @@
       <div class="box etf flex-start">
         <a href="http://www.oppenheimerfunds.com/advisors/article/internationalview-built-on-localknowledge" target="_blank">
           <div class="copy copy--secondary">
-            <span>You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
+            <span class="quote">You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
             <span class="green-text tiny">-Hemant Baijal <br> Co-Head, Global Debt Team</span>
           </div>
         </a>
@@ -136,5 +136,8 @@ export default {
   .exciting {
     display: inline-block;
     font-size: 13px;
+  }
+  .quote {
+    font-size: 14px;
   }
 </style>

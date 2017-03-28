@@ -491,6 +491,7 @@ body {
   .instruments {
     display: inline-block;
     padding-top: 10px;
+    line-height: 1.7rem;
   }
   .stars {
     height: 15px;
@@ -500,10 +501,13 @@ body {
     font-size: 9px;
   }
   .quote {
+    display: inline-block;
     letter-spacing: .6px;
     font-size: 17px;
+    line-height: 1.2;
   }
-  .quote {
+  .quote--small {
+
   }
   .etf {
     span {

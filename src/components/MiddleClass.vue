@@ -5,7 +5,7 @@
       <div class="box box--wide">
         <div class="copy">
           <div class="big">Reality:</div>
-          <div class="padding-right">The middle class is growing and by 2025 <br> it will include half the world's population. </div>
+          <div class="padding-right">The middle class is growing and by 2025 it will include half the world's population. </div>
         </div>
       </div>
       <div class="box">
@@ -16,12 +16,12 @@
         </a>
       </div>
 
-      <div class="box flex-start">
+      <div class="box etf flex-start">
       <a href="http://www.oppenheimerfunds.com/advisors/article/understanding-howopportunities-createwealth" target="_blank">
         <div class="copy copy--secondary">
           <img src="static/img/beacon.png" alt="">
           <br>
-          <span>“Technology has enabled the ability to communicate; <br>that’s broken down barriers.” </span><br>
+          <span class="quote">“Technology has enabled the ability to communicate; <br>that’s broken down barriers.” </span><br>
           <span class="green-text tiny">-George Evans <br> CIO of Equities</span>
         </div>
       </a>
@@ -144,10 +144,10 @@ export default {
     transform: translateY(-50%);
   }
   .padding-right {
-    padding-right: 4rem;
+    padding-right: 1rem;
   }
   .flex-start img {
-    height: 50px;
+    height: 60px;
     margin-left: 30%;
   }
   .stars {
@@ -167,4 +167,8 @@ export default {
       line-height: .1
     }
   }
+  .quote {
+    font-size: 12px;
+  }
+
 </style>
