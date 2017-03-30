@@ -170,5 +170,30 @@ export default {
   .quote {
     font-size: 12px;
   }
+  @media (max-width: 666px) {
 
+     .box {
+       display: none;
+       position: relative;
+     }
+
+    .box:nth-of-type(1) {
+      display: flex;
+      width: 190px;
+      order: -2;
+    }
+    .box:nth-of-type(3) {
+      display: flex;
+
+    }
+    .box:nth-of-type(4) {
+      display: flex;
+      order: -1;
+      width: 190px;
+    }
+    .box:nth-of-type(5) {
+      display: flex;
+      order: -2;
+    }
+  }
 </style>

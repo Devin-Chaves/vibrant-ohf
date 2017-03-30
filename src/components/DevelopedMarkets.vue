@@ -10,7 +10,7 @@
       </div>
       <div class="box">
         <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
-          <div class="copy challenge">
+          <div class="copy challenge fat-child">
             <span class="big"><span class="green-text">Challenge</span><br>labels.</span>
           </div></a>
       </div>
@@ -18,7 +18,7 @@
       <div class="box etf flex-start">
         <a href="http://www.oppenheimerfunds.com/advisors/article/internationalview-built-on-localknowledge" target="_blank">
           <div class="copy copy--secondary">
-            <span class="quote">You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
+            <span class="quote">"You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
             <span class="green-text tiny">-Hemant Baijal <br> Co-Head, Global Debt Team</span>
           </div>
         </a>
@@ -36,7 +36,7 @@
     <div class="box etf">
       <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank">
         <div class="copy">
-          <span>Oppenheimer International Bond Fund <span class="green-text">(OIBYX)</span></span><br><br>
+          <span>Oppenheimer International&nbsp;Bond&nbsp;Fund <br> <span class="green-text">(OIBYX)</span></span><br>
           <span class="green-text">
             <div class="star"></div>
           </span>
@@ -139,5 +139,31 @@ export default {
   }
   .quote {
     font-size: 14px;
+  }
+  @media (max-width: 666px) {
+
+     .box {
+       display: none;
+       position: relative;
+     }
+
+    .box:nth-of-type(1) {
+      display: flex;
+      width: 190px;
+      order: -2;
+    }
+    .box:nth-of-type(3) {
+      display: flex;
+
+    }
+    .box:nth-of-type(4) {
+      display: flex;
+      order: -2;
+      width: 190px;
+    }
+    .box:nth-of-type(5) {
+      display: flex;
+      order: -2;
+    }
   }
 </style>

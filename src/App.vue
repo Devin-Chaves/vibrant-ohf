@@ -99,108 +99,10 @@ body {
   color: white;
 }
 
-@media (max-width: 900px) {
-
-  .challenge-view {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-top: -360px;
-    width: 100%;
-    margin-left: 0;
-  }
-  .challenge-open {
-    position: absolute;
-    top: 0;
-    transform: none;
-  }
-  .sidebar {
-    img:not(.img-saver) {
-      display: none;
-    }
-  }
-  .img-saver {
-    position: absolute;
-    left: 0;
-    height: 100px;
-    display: block;
-  }
-  .box-wrapper {
-    max-width: 100%
-  }
-  .sidebar {
-    width: auto;
-    margin-left: 0;
-    height: 100px;
-    margin-top: -100px
-  }
-  .next-challenge {
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 430px;
-  }
-  .next-challenge span {
-    font-size: 24px;
-    margin-right: -20px;
-    color: white;
-  }
-  .copyright {
-    display: none !important
-  }
-  .copyright-hidden {
-    position: absolute;
-    display: block;
-    top: 580px;
-  }
-}
-@media (min-width: 901px) {
-  .img-saver {
-    display: none;
-  }
-}
-@media (max-width: 666px) {
-  .challenge-view {
-    width: 100%;
-    max-width: none;
-  }
-  .sidebar {
-    max-width: 410px;
-  }
-  .next-challenge {
-    left: 225px;
-  }
-}
-
-@media (max-width: 666px) {
-
-   .box {
-     display: none !important;
-     position: relative;
-   }
-
-  .box:nth-of-type(1) {
-    display: flex !important;
-    width: 190px;
-    order: -2;
-  }
-  .box:nth-of-type(3) {
-    display: flex !important;
-
-  }
-  .box:nth-of-type(4) {
-    display: flex !important;
-    order: -1;
-    width: 190px;
-  }
-  .box:nth-of-type(5) {
-    display: flex !important;
-  }
-}
-
 .copyright-hidden {
   display: none;
 }
+
 
 .arrow {
   margin-right: 8px;
@@ -243,11 +145,13 @@ body {
     color: #bad61e;
   }
   .big {
-    font-family:'PragmaticaW01-Condensed1061365';;
+    font-family:'PragmaticaW01-Condensed1061365';
     font-size: 22px;
     text-transform:uppercase;
-    font-weight: 800;
     line-height: .9;
+  }
+  .big--hidden {
+    display: none;
   }
   strong {
     font-family:'PragmaticaW01-Condensed1061371';
@@ -278,7 +182,7 @@ body {
       background: black;
     }
     &--wide {
-      width: 390px;
+      width: 392px;
       background: #bad61e;
       color: black;
       display: flex;
@@ -358,6 +262,11 @@ body {
       padding-left: 15px;
     }
     overflow: scroll;
+  }
+  .exciting {
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 13px;
   }
   .morningstar {
     display: inline-block;
@@ -512,6 +421,114 @@ body {
   .etf {
     span {
       font-family: 'PragmaticaW01-CondLight'
+    }
+  }
+
+
+  @media (max-width: 900px) {
+
+    .challenge-view {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      margin-top: -360px;
+      width: 100%;
+      margin-left: 0;
+    }
+    .challenge-open {
+      position: absolute;
+      top: 0;
+      transform: none;
+    }
+    .sidebar {
+      img:not(.img-saver) {
+        display: none;
+      }
+    }
+    .img-saver {
+      position: absolute;
+      left: 0;
+      height: 100px;
+      display: block;
+    }
+    .box-wrapper {
+      max-width: 100%
+    }
+    .sidebar {
+      width: auto;
+      margin-left: 0;
+      height: 100px;
+      margin-top: -100px
+    }
+    .next-challenge {
+      position: absolute;
+      top: auto;
+      bottom: 0;
+      left: 430px;
+    }
+    .next-challenge span {
+      font-size: 24px;
+      margin-right: -20px;
+      color: white;
+    }
+    .copyright {
+      display: none !important
+    }
+    .copyright-hidden {
+      position: absolute;
+      display: block;
+      top: 580px;
+    }
+  }
+  @media (min-width: 901px) {
+    .img-saver {
+      display: none;
+    }
+  }
+  @media (max-width: 666px) {
+    .challenge-view {
+      width: 100%;
+      max-width: none;
+    }
+    .sidebar {
+      max-width: 410px;
+    }
+    .next-challenge {
+      left: 225px;
+      top: 32px;
+    }
+    .copyright-hidden {
+      top: 390px;
+    }
+    .box {
+
+      &--primary {
+        background: white;
+        color: black;
+      }
+      &--secondary {
+        color: white;
+        background: black;
+      }
+      &--wide {
+        width: 392px;
+        background: #bad61e;
+        color: black;
+        display: flex;
+        align-items: flex-start;
+        .copy{
+          font-size: 14px;
+          padding: 16px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          .big {
+            margin-right: 0;
+            padding-bottom: 8px;
+          }
+        }
+      }
     }
   }
 </style>

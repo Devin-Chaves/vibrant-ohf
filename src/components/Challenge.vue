@@ -84,9 +84,9 @@
           </a>
         </div>
       </transition>
-      <div class="tiny copyright">©2017 OppenheimerFunds Distributor, Inc.</div>
+      <div class="copyright">©2017 OppenheimerFunds Distributor, Inc.</div>
     </div>
-    <div class="tiny copyright-hidden">©2017 OppenheimerFunds Distributor, Inc.</div>
+    <div class="copyright-hidden">©2017 OppenheimerFunds Distributor, Inc.</div>
     <transition :name="transitionName">
       <router-view class="child-view"></router-view>
     </transition>

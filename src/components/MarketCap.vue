@@ -42,6 +42,7 @@
     <div class="box etf">
       <a href="http://www.oppenheimerfunds.com/advisors/etfs" target="_blank">
         <div class="copy">
+          <span class="big big--hidden"><span class="green-text">challenge</span> <br> the index.</span>
           <span>Oppenheimer <br>Revenue&nbsp;Weighted&nbsp;ETFs</span> <br>
           <span class="instruments"><span class="green-text">RWK</span> | <span class="green-text">RWL</span> | <span class="green-text">ESGL</span> <br> <span class="green-text">RDIV</span> | <span class="green-text">RWJ</span> | <span class="green-text">ESGF</span></span>
         </div></a>
@@ -160,5 +161,41 @@ export default {
       position: absolute;
       bottom: 5px;
       right: 20px;
+    }
+    @media (max-width: 666px) {
+      .big--hidden {
+        display: block;
+        font-family:'PragmaticaW01-Condensed1061365';
+        font-size: 20px;
+        text-transform:uppercase;
+        line-height: 1.1;
+        padding-bottom: 12px;
+        .green-text {
+          font-family:'PragmaticaW01-Condensed1061365';
+        }
+      }
+     .box {
+       display: none;
+       position: relative;
+     }
+
+    .box:nth-of-type(1) {
+      display: flex;
+      width: 190px;
+      order: -2;
+    }
+    .box:nth-of-type(3) {
+      display: flex;
+
+    }
+    .box:nth-of-type(4) {
+      display: flex;
+      order: -2;
+      width: 190px;
+    }
+    .box:nth-of-type(5) {
+      display: flex;
+      order: -2;
+    }
     }
 </style>

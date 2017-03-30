@@ -34,7 +34,7 @@
     <div class="box etf">
       <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank">
         <div class="copy">
-          <span>Oppenheimer International Bond Fund <span class="green-text">(OIBYX)</span></span><br><br>
+          <span>Oppenheimer International&nbsp;Bond&nbsp;Fund <br> <span class="green-text">(OIBYX)</span></span><br>
           <span class="green-text">
             <div class="star"></div>
           </span>
@@ -145,6 +145,32 @@ export default {
   .etf {
     span {
       font-family: 'PragmaticaW01-CondLight'
+    }
+  }
+  @media (max-width: 666px) {
+
+     .box {
+       display: none;
+       position: relative;
+     }
+
+    .box:nth-of-type(1) {
+      display: flex;
+      width: 190px;
+      order: -2;
+    }
+    .box:nth-of-type(3) {
+      display: flex;
+
+    }
+    .box:nth-of-type(4) {
+      display: flex;
+      order: -1;
+      width: 190px;
+    }
+    .box:nth-of-type(5) {
+      display: flex;
+      order: -2;
     }
   }
 </style>

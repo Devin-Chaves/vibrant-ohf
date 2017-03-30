@@ -131,7 +131,7 @@ export default {
      }
    }
    .box:nth-of-type(5) {
-     order: -1;
+     order: -3;
      display: block;
    }
    .box:nth-of-type(7) {

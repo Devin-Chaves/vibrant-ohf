@@ -35,6 +35,7 @@
       <div class="box etf">
         <a href="http://www.oppenheimerfunds.com/advisors/fund/international-growthfund">
           <div class="copy">
+            <span class="big big--hidden"><span class="green-text">challenge</span> <br>stereotypes.</span>
             <span>Oppenheimer International&nbsp;Growth&nbsp;Fund <br> <span class="green-text">(OIGYX)</span></span><br>
             <img class="stars" src="static/img/stars.png" alt="Stars">
             <span class="morningstar">Class Y shares rated 4 stars overall by Morningstar among 312 funds in the Foreign Large Growth category for the 3-, 5- and 10-Year periods ended 12/31/16 based on risk-adjusted performance.</span>
@@ -148,5 +149,45 @@ export default {
       line-height: .1
     }
   }
+  @media (max-width: 666px) {
+
+    .big--hidden {
+      display: block;
+      font-family:'PragmaticaW01-Condensed1061365';
+      font-size: 18px;
+      text-transform:uppercase;
+      line-height: .9;
+      padding-bottom: 5px;
+      .green-text {
+        font-family:'PragmaticaW01-Condensed1061365';
+      }
+    }
+    .copy {
+      font-size: 12px;
+    }
+   .box {
+     display: none;
+     position: relative;
+   }
+
+  .box:nth-of-type(1) {
+    display: flex;
+    width: 190px;
+    order: -2;
+  }
+  .box:nth-of-type(3) {
+    display: flex;
+
+  }
+  .box:nth-of-type(4) {
+    display: flex;
+    order: -2;
+    width: 190px;
+  }
+  .box:nth-of-type(5) {
+    display: flex;
+    order: -2;
+  }
+}
 
 </style>

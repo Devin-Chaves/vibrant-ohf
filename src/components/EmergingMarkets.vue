@@ -36,10 +36,9 @@
       </div>
     <div class="box etf">
       <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank"><div class="copy">
-          <span>Oppenheimer International Bond Fund <span class="green-text">(OIBYX)</span></span><br><br>
-          <span class="green-text">
-            <div class="star"></div>
-          </span>
+        <span class="big big--hidden"><span class="green-text">challenge</span> <br>labels.</span>
+        <span>Oppenheimer International&nbsp;Bond&nbsp;Fund <br> <span class="green-text">(OIBYX)</span></span><br>
+
           <span class="exciting">Invest in countries with surprising opportunities.</span>
         </div></a>
         <div class="disclosure" id="disclosure">
@@ -137,10 +136,7 @@ export default {
   .padding-right {
     padding-right: 2rem;
   }
-  .exciting {
-    display: inline-block;
-    font-size: 13px;
-  }
+
   .flex-start img {
     height: 50px;
     margin-left: 30%;
@@ -148,4 +144,41 @@ export default {
   .fat-child {
     padding-left: 12px;
   }
+  @media (max-width: 666px) {
+    .big--hidden {
+      display: block;
+      font-family:'PragmaticaW01-Condensed1061365';
+      font-size: 20px;
+      text-transform:uppercase;
+      line-height: 1.1;
+      padding-bottom: 6px;
+      .green-text {
+        font-family:'PragmaticaW01-Condensed1061365';
+      }
+    }
+
+   .box {
+     display: none;
+     position: relative;
+   }
+
+  .box:nth-of-type(1) {
+    display: flex;
+    width: 190px;
+    order: -2;
+  }
+  .box:nth-of-type(3) {
+    display: flex;
+
+  }
+  .box:nth-of-type(4) {
+    display: flex;
+    order: -2;
+    width: 190px;
+  }
+  .box:nth-of-type(5) {
+    display: flex;
+    order: -2;
+  }
+}
 </style>
