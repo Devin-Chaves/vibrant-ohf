@@ -9,7 +9,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-import creativeFunctionLibrary from '../static/creativeFunctionLibrary.js'
 
 Vue.config.productionTip = false
 
