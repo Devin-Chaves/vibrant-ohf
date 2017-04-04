@@ -9,14 +9,14 @@
         </div>
       </div>
       <div class="box">
-        <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+        <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
           <div class="copy challenge fat-child">
             <span class="big"><span class="green-text">Challenge</span><br>pessimism.</span>
           </div></a>
       </div>
 
       <div class="box etf flex-start">
-        <a href="http://www.oppenheimerfunds.com/advisors/article/understanding-howopportunities-createwealth" target="_blank">
+        <a href="https://ad.doubleclick.net/ddm/clk/320829617;149536111;e" target="_blank">
           <div class="copy">
             <span class="quote">“The global economy has come together at an incredible speed.”</span>
             <span class="green-text tiny">-George Evans <br> CIO of Equities</span>
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="box etf">
-        <a href="http://www.oppenheimerfunds.com/advisors/fund/international-growthfund">
+        <a href="https://ad.doubleclick.net/ddm/clk/320520042;149536111;k">
           <div class="copy">
             <span>Oppenheimer International&nbsp;Growth&nbsp;Fund <br> <span class="green-text">(OIGYX)</span></span><br>
             <img class="stars" src="static/img/stars.png" alt="Stars">
@@ -83,7 +83,7 @@
           </span>
       </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/advisors/fund/international-growthfund" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320829617;149536111;e" target="_blank">
         <div class="image george">
           <span class="tiny image-meta"><span class="name">George&nbsp;Evans</span> <br> CIO of Equities</span>
           <img src="static/img/george_evans.jpg" alt="George Evans">
@@ -91,7 +91,7 @@
       </a>
     </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
         <div class="image challenge">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
           <img src="static/img/challenge_index.jpg" alt="Level II Tape">

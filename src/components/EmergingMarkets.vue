@@ -9,14 +9,14 @@
         </div>
       </div>
       <div class="box">
-        <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+        <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
           <div class="copy challenge fat-child">
             <span class="big"><span class="green-text">Challenge</span><br>assumptions.</span>
           </div></a>
       </div>
 
       <div class="box etf flex-start">
-      <a href="http://www.oppenheimerfunds.com/advisors/article/internationalview-built-on-localknowledge" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320829616;149536111;d" target="_blank">
         <div class="copy copy--secondary">
           <img src="static/img/globe.png" alt="Globe Image">
           <br>
@@ -35,7 +35,7 @@
         </div>
       </div>
     <div class="box etf">
-      <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank"><div class="copy">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520043;149536111;l" target="_blank"><div class="copy">
         <span class="big big--hidden"><span class="green-text">challenge</span> <br>labels.</span>
         <span>Oppenheimer International&nbsp;Bond&nbsp;Fund <br> <span class="green-text">(OIBYX)</span></span><br>
 
@@ -68,14 +68,14 @@
           </span>
       </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/advisors/fund/international-bondfund" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320829616;149536111;d" target="_blank">
         <div class="image hemant">
           <span class="tiny image-meta"><span class="name">Hemant&nbsp;Baijal</span> <br> Co-Head, <br> Global Debt Team</span>
           <img src="static/img/hemant_baijal.jpg" alt="George Evans">
         </div></a>
     </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
         <div class="image challenge">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
           <img src="static/img/challenge_index.jpg" alt="Level II Tape">

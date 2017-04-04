@@ -9,7 +9,7 @@
           </div>
       </div>
       <div class="box">
-          <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+          <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
             <div class="copy challenge fat-child">
           <span class="big">
             <span class="green-text">Challenge</span><br>yesterday.
@@ -18,7 +18,7 @@
       </a>
       </div>
       <div class="box etf flex-start">
-      <a href="http://www.oppenheimerfunds.com/advisors/article/the-smarter-way-toweight-theindex " target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320829618;149536111;f" target="_blank">
         <div class="copy">
           <span>“You're only <br> as strong as your weakest stock.” </span>
           <span class="green-text tiny">-Vince Lowry <br> Head of Revenue Weighted Strategy Team </span>
@@ -35,7 +35,7 @@
         </div>
       </div>
     <div class="box etf">
-      <a href="http://www.oppenheimerfunds.com/advisors/etfs" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520515;149536111;p" target="_blank">
         <div class="copy">
           <span>Oppenheimer <br>Revenue Weighted ETFs</span><br>
           <span class="instruments"><span class="green-text">RWK</span> | <span class="green-text">RWL</span> | <span class="green-text">ESGL</span> <br> <span class="green-text">RDIV</span> | <span class="green-text">RWJ</span> | <span class="green-text">ESGF</span></span>
@@ -69,14 +69,14 @@
           </span>
       </div>
     <div class="box vince">
-    <a href="http://www.oppenheimerfunds.com/advisors/etfs" target="_blank">
+    <a href="https://ad.doubleclick.net/ddm/clk/320829618;149536111;f" target="_blank">
       <div class="image">
         <span class="image-meta"><span class="name">Vince Lowry</span> <br>Head of Revenue <br> Weighted Strategy Team</span>
         <img src="static/img/vince_lowry.jpg" alt="Vince Lowry">
       </div></a>
     </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
         <div class="image challenge">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
           <img src="static/img/challenge_index.jpg" alt="Level II Tape">

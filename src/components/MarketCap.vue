@@ -12,14 +12,14 @@
         </div>
       </div>
       <div class="box">
-        <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+        <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
           <div class="copy challenge fat-child">
             <span class="big"><span class="green-text">Challenge</span><br>old&nbsp;thinking.</span>
           </div></a>
       </div>
 
       <div class="box etf flex-start">
-        <a href="http://www.oppenheimerfunds.com/advisors/article/the-smarter-way-toweight-theindex" target="_blank">
+        <a href="https://ad.doubleclick.net/ddm/clk/320829619;149536111;g" target="_blank">
           <div class="copy copy--secondary">
             <span>“When you buy the S&P 500, you’re buying emotion and panic in what the marketplace reflects.”</span><br>
             <span class="green-text tiny">-Sharon French <br> Head of Beta Solutions</span>
@@ -40,7 +40,7 @@
         </div>
       </div>
     <div class="box etf">
-      <a href="http://www.oppenheimerfunds.com/advisors/etfs" target="_blank">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520515;149536111;p" target="_blank">
         <div class="copy">
           <span class="big big--hidden"><span class="green-text">challenge</span> <br> the index.</span>
           <span>Oppenheimer <br>Revenue&nbsp;Weighted&nbsp;ETFs</span> <br>
@@ -89,13 +89,13 @@
           </span>
       </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/advisors/etfs" target="_blank"><div class="image sharon">
+      <a href="https://ad.doubleclick.net/ddm/clk/320829619;149536111;g" target="_blank"><div class="image sharon">
           <span class="image-meta"><span class="name">Sharon&nbsp;French</span> <br><span class="tiny">Head&nbsp;of&nbsp;Beta <br> Solutions</span></span>
           <img src="static/img/sharon_french.jpg" alt="Sharon French">
         </div></a>
     </div>
     <div class="box">
-      <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank"><div class="image challenge">
+      <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank"><div class="image challenge">
           <img src="static/img/challenge_index.jpg" alt="Level II Tape">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
         </div></a>
