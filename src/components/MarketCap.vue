@@ -140,7 +140,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    .copy--secondary {
+      font-size: 14px;
+    }
     .sharon {
       background: #e5e5e5;
       img {
