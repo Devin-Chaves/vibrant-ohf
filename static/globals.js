@@ -44,7 +44,7 @@ function setVideoPlayer() {
 
         //setup player Object
         var playerSettings = {
-            'mp4Src': 'http://images.intellitxt.com/a/105671/20170227-mosaic/assets/BareMinerals-Emelyne-Natural.mp4', //-> mandarory
+            'mp4Src': '//images.intellitxt.com/a/105671/20170227-mosaic/assets/BareMinerals-Emelyne-Natural.mp4', //-> mandarory
             'playerW': pw,
             //'name':ffVideo,
             'autostart': as,
@@ -58,7 +58,6 @@ function setVideoPlayer() {
         cm.createJWPlayer(playerSettings, vh);
     } else {}
 }
-
 // if ($("#videoHolder").length) {
 //             cm.removeJWPlayer("videoHolder");
 //             //$('.lightboxclose').removeClass('videoLightboxClose');
