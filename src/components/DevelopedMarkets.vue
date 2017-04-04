@@ -30,7 +30,6 @@
           <div class="play-button"></div>
         </video>
         <div class="cta">
-
         </div>
       </div>
     <div class="box etf">
@@ -91,6 +90,10 @@ export default {
     methods: {
       playOrPause() {
         var x = document.getElementById("myVideo");
+        x.addEventListener('ended',function(){
+          x.load();
+          x.height = 220;
+        },false);
         if (x.paused) {
           x.play();
           x.height = 180
@@ -98,6 +101,12 @@ export default {
           x.pause();
           }
       },
+    onEnded() {
+      var x = document.getElementById("myVideo");
+      x.addEventListener('ended',function(){
+        x.load();
+      },false);
+    },
     displayDisclosure() {
       var x = document.getElementById('disclosure-buttons')
       var y = document.getElementById('disclosure');

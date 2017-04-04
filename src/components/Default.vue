@@ -138,20 +138,4 @@ export default {
      display: block;
    }
  }
-
- @media (max-width: 666px) and (max-height: 560px) {
-
-   .sidebar {
-     background: red;
-     position: relative;
-     margin-top: 10px;
-     width: 250px;
-     height: 400px;
-     margin-left: -250px;
-     .tiny {
-       display: block;
-     }
-   }
-
-}
 </style>

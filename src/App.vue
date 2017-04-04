@@ -531,4 +531,74 @@ body {
       }
     }
   }
+
+  @media (max-width: 666px) and (max-height: 560px) {
+
+    .challenge-view {
+      display: flex;
+      flex-direction: row;
+      margin-left: 180px;
+      margin-top: 0;
+    }
+    .box-wrapper {
+      display: flex;
+      flex: 0 1 auto;
+      flex-wrap: wrap;
+      max-width: 610px;
+    }
+    .box:not(:last-of-type) {
+      margin-right: 10px;
+    }
+
+    .fade-enter-active, .fade-leave-active {
+      transition: opacity .5s ease;
+    }
+    .fade-enter, .fade-leave-active {
+      opacity: 0
+    }
+    .sidebar {
+      position: relative;
+      margin-top: 10px;
+      width: 225px;
+      height: 400px;
+      margin-left: -170px;
+      .tiny {
+        display: block;
+      }
+    }
+    .challenge-open {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-65%);
+    }
+    .next-challenge {
+      position: absolute;
+      top: 50%;
+      left: 0;
+    }
+    .next-challenge span {
+      font-size: 20px;
+      margin-right: 0;
+      color: white;
+    }
+
+    .copyright-hidden {
+      display: block;
+      margin-left: -170px;
+      margin-top: -20px;
+    }
+
+    .arrow {
+      margin-right: 8px;
+      margin-bottom: -2px;
+      display: inline-block;
+      vertical-align: baseline;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 9px 13px 9px 0;
+      border-color: transparent #bad61e transparent transparent;
+    }
+
+ }
 </style>
