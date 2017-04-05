@@ -24,11 +24,11 @@
         </a>
       </div>
       <div class="box box--wide box--video">
-        <div class="videoholder" id="videoHolder">
+        <div class="videoholder3" id="videoHolder">
         </div>
-        <video id="myVideo" @click="playOrPause" src="static/videos/bond-retail.mp4" poster="static/img/bond_poster.jpg">
+        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/bond-retail.mp4" poster="static/img/bond_poster.jpg">
           <div class="play-button"></div>
-        </video>
+        </video> -->
         <div class="cta">
         </div>
       </div>

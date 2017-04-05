@@ -25,11 +25,11 @@
         </div></a>
       </div>
       <div class="box box--wide box--video">
-        <div class="videoholder" id="videoHolder">
-        </div>
-        <video id="myVideo" @click="playOrPause" src="static/videos/etfs-retail.mp4" poster="static/img/etf_poster.png">
+        <div class="videoholder1" id="videoHolder">
+				</div>
+        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/etfs-retail.mp4" poster="static/img/etf_poster.png">
           <div class="play-button"></div>
-        </video>
+        </video> -->
         <div class="cta">
 
         </div>
