@@ -122,7 +122,7 @@ body {
 
 
 .sidebar img {
-  max-width: 80%;
+  max-width: 200px;
 }
 .child-view {
   position: absolute;
@@ -366,7 +366,7 @@ body {
       font-family:'PragmaticaW01-CondLight';
       padding-top: 8px;
       display: inline-block;
-      font-size: 8px;
+      font-size: 10px;
       line-height: 1.2;
       font-weight: 200;
       padding-bottom: 40px;

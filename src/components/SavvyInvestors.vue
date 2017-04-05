@@ -91,13 +91,17 @@ export default {
     methods: {
       playOrPause() {
         var x = document.getElementById("myVideo");
+        x.addEventListener('ended',function(){
+          x.load();
+          x.height = 220;
+        },false);
         if (x.paused) {
           x.play();
           x.height = 180
        } else {
           x.pause();
           }
-        },
+      },
       displayDisclosure() {
         var x = document.getElementById('disclosure-buttons')
         var y = document.getElementById('disclosure');

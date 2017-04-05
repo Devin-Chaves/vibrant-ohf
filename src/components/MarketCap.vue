@@ -32,9 +32,9 @@
       <div class="box box--wide box--video">
         <div class="videoholder" id="videoHolder">
 				</div>
-        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/etfs-retail.mp4" poster="static/img/etf_poster.png">
+        <video id="myVideo" @click="playOrPause" src="static/videos/etfs-retail.mp4" poster="static/img/etf_poster.png">
           <div class="play-button"></div>
-        </video> -->
+        </video>
         <div class="cta">
 
         </div>
@@ -48,30 +48,11 @@
         </div></a>
         <div class="disclosure" id="disclosure">
           <span>
-            <span class="large">Carefully consider fund investment objectives, risks, charges and expenses. Visit oppenheimerfunds.com or
+            <span class="large">Carefully consider fund investment objectives, risks, charges and expenses. Visit <a href="http://www.oppenheimerfunds.com">oppenheimerfunds.com</a> or
               call your advisor for a prospectus with this and other fund information. Read it carefully before investing
             </span> <br>
             <span class="small">
-              Foreign investments may be volatile and involve additional expenses and special risks including currency fluctuations, foreign taxes
-              and political and economic uncertainties. Emerging and developing market investments may be especially volatile.
-              <strong>Class Y shares are not available to all investors. Please consult your financial advisor to determine if you are eligible to purchase.</strong>
-              The Morningstar Rating™ for funds, or "star rating", is calculated for managed products (including mutual funds, variable annuity and
-              variable life subaccounts, exchange-traded funds, closed-end funds, and separate accounts) with at least a three year history.
-              Exchange-traded funds and open-ended mutual funds are considered a single population for comparative purposes. It is calculated
-              based on a Morningstar Risk-Adjusted Return measure that accounts for variation in a managed product's monthly excess
-              performance, placing more emphasis on downward variations and rewarding consistent performance. The top 10% of products in
-              each product category receive 5 stars, the next 22.5% receive 4 stars, the next 35% receive 3 stars, the next 22.5% receive 2 stars,
-              and the bottom 10% receive 1 star.
-              <strong>The Overall Morningstar Rating for a managed product is derived from a weighted average of
-              the performance figures associated with its three-, five-, and 10-year (if applicable) Morningstar Rating metrics.</strong>
-              The weights are:
-              100% three-year rating for 36-59 months of total returns, 60% five-year rating/40% three-year rating for 60-119 months of total
-              returns, and 50% 10-year rating/30% five-year rating/20% three-year rating for 120 or more months of total returns. While the 10-
-              year overall star rating formula seems to give the most weight to the 10-year period, the most recent three-year period actually has
-              the greatest impact because it is included in all three rating periods. Oppenheimer International Growth Class Y shares was rated
-              against the following numbers of Foreign Large Growth funds over the following time periods: 312 funds in the last three years, 260
-              funds in the last five years, and 182 funds in the last ten years. Morningstar Rating is for the Y share class only; other classes may
-              have different performance characteristics. <strong>Past performance does not guarantee future results.</strong>
+              The alternate weighting approach employed by the Funds (i.e., using revenues as a weighting measure), while designed to enhance potential returns, may not produce the desired results. Because the Funds are rebalanced quarterly, the Funds may experience portfolio turnover in excess of 100%. The greater the portfolio turnover, the greater the transaction costs to the Funds, which could have an adverse effect on a Fund's performance. There is no guarantee that the issuers of stocks will declare dividends in the future, or that dividends will remain at their current levels or increase over time. The stocks of companies with favorable ESG practices may underperform the stock market as a whole.
               <br><br>©2017 OppenheimerFunds Distributor, Inc.
             </span>
           </span>
@@ -112,13 +93,17 @@ export default {
     methods: {
       playOrPause() {
         var x = document.getElementById("myVideo");
+        x.addEventListener('ended',function(){
+          x.load();
+          x.height = 220;
+        },false);
         if (x.paused) {
           x.play();
           x.height = 180
        } else {
           x.pause();
           }
-        },
+      },
       displayDisclosure() {
         var x = document.getElementById('disclosure-buttons')
         var y = document.getElementById('disclosure');

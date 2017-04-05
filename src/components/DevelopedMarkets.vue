@@ -18,7 +18,7 @@
       <div class="box etf flex-start">
         <a href="https://ad.doubleclick.net/ddm/clk/320829616;149536111;d" target="_blank">
           <div class="copy copy--secondary">
-            <span class="quote">"You cannot understand a country, or a company, from simply reading a book. We don’t want to know what has already been printed.” </span><br>
+            <span class="quote">"You cannot understand a country or a company from simply reading a book. We don’t want to know what has already been printed.”</span><br>
             <span class="green-text tiny">-Hemant Baijal <br> Co-Head, Global Debt Team</span>
           </div>
         </a>
@@ -51,7 +51,8 @@
             Fixed income investing entails credit and interest rate risks. When interest rates rise, bond prices generally fall, and the Fund's share prices can fall.
             Foreign investments may be volatile and involve additional expenses and special risks, including currency fluctuations, foreign taxes, regulatory and
             geopolitical risks. Emerging and developing market investments may be especially volatile. Small and mid-sized company stock is typically more
-            volatile than that of larger company stock. It may take a substantial period of time to realize a gain on an investment if any gain is realized at all.
+            volatile than that of larger company stock. It may take a substantial period of time to realize a gain on an investment if any gain is realized at all. <br><br>
+            <strong>Class Y shares are not available to all investors. Please consult your financial advisor to determine if you are eligible to purchase.</strong>
             <br><br>©2017 OppenheimerFunds Distributor, Inc.
           </span>
         </span>
@@ -101,12 +102,6 @@ export default {
           x.pause();
           }
       },
-    onEnded() {
-      var x = document.getElementById("myVideo");
-      x.addEventListener('ended',function(){
-        x.load();
-      },false);
-    },
     displayDisclosure() {
       var x = document.getElementById('disclosure-buttons')
       var y = document.getElementById('disclosure');

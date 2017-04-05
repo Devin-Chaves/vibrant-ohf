@@ -48,8 +48,8 @@
             </span> <br>
             <span class="small">
               Foreign investments may be volatile and involve additional expenses and special risks including currency fluctuations, foreign taxes
-              and political and economic uncertainties. Emerging and developing market investments may be especially volatile.
-              <strong>Class Y shares are not available to all investors. Please consult your financial advisor to determine if you are eligible to purchase.</strong>
+              and political and economic uncertainties. Emerging and developing market investments may be especially volatile. <br> <br>
+              <strong>Class Y shares are not available to all investors. Please consult your financial advisor to determine if you are eligible to purchase.</strong> <br> <br>
               The Morningstar Rating™ for funds, or "star rating", is calculated for managed products (including mutual funds, variable annuity and
               variable life subaccounts, exchange-traded funds, closed-end funds, and separate accounts) with at least a three year history.
               Exchange-traded funds and open-ended mutual funds are considered a single population for comparative purposes. It is calculated
@@ -108,13 +108,17 @@ export default {
     methods: {
       playOrPause() {
         var x = document.getElementById("myVideo");
+        x.addEventListener('ended',function(){
+          x.load();
+          x.height = 220;
+        },false);
         if (x.paused) {
           x.play();
           x.height = 180
        } else {
           x.pause();
           }
-        },
+      },
       displayDisclosure() {
         var x = document.getElementById('disclosure-buttons')
         var y = document.getElementById('disclosure');
