@@ -68,10 +68,10 @@
   </div> -->
     <!-- <h2>Parent</h2> -->
     <div class="sidebar">
-      <img class="img-saver" src="static/img/oppenheimer.png" alt=""/>
+      <img class="img-saver" src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/oppenheimer.png" alt=""/>
       <transition name="fade">
         <router-link to='/challenge' v-if="$route.name !== 'challenge'">
-          <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/oppenheimer.png" alt="Oppenheimer Funds">
           <div class="next-challenge">
             <div class="arrow"></div><span>Next Challenge</span>
           </div>
@@ -80,7 +80,7 @@
       <transition name="fade">
         <div class="challenge-open" v-if="$route.name == 'challenge'">
           <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
-            <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
+            <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/oppenheimer.png" alt="Oppenheimer Funds">
           </a>
         </div>
       </transition>

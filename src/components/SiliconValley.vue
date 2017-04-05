@@ -24,7 +24,7 @@
       <div class="box box--wide box--video">
         <div class="videoholder3" id="videoHolder">
         </div>
-        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/bond-retail.mp4" poster="static/img/bond_poster.jpg">
+        <!-- <video id="myVideo" @click="playOrPause" src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/videos/bond-retail.mp4" poster="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/bond_poster.jpg">
           <div class="play-button"></div>
         </video> -->
         <div class="cta">
@@ -58,10 +58,10 @@
       </div>
       <div id="disclosure-buttons" class="disclosure-buttons">
         <div class="close" id="close" @click="closeDisclosure">
-          <img src="static/img/close.png" alt="Close">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/close.png" alt="Close">
         </div>
         <div class="updown">
-          <img src="static/img/up_down.png" alt="Scroll">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/up_down.png" alt="Scroll">
         </div>
       </div>
         <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
@@ -72,13 +72,13 @@
     <a href="https://ad.doubleclick.net/ddm/clk/320829616;149536111;d" target="_blank">
       <div class="image hemant">
         <span class="tiny image-meta"><span class="name">Hemant&nbsp;Baijal</span> <br> Co-Head, <br> Global Debt Team</span>
-        <img src="static/img/hemant_baijal.jpg" alt="George Evans">
+        <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/hemant_baijal.jpg" alt="George Evans">
       </div></a>
     </div>
     <div class="box">
       <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank"><div class="image challenge">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
-          <img src="static/img/challenge_index.jpg" alt="Level II Tape">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/challenge_index.jpg" alt="Level II Tape">
         </div></a>
     </div>
   </div>

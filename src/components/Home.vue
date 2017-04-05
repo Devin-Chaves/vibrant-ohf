@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="home">
-      <router-link to='/challenge'><img src="static/img/opp_hands.png" alt="">
+      <router-link to='/challenge'><img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/opp_hands.png" alt="">
       </router-link>
     </div>
 </template>

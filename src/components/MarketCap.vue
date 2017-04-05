@@ -23,7 +23,7 @@
           <div class="copy copy--secondary">
             <span>“When you buy the S&P 500, you’re buying emotion and panic in what the marketplace reflects.”</span><br>
             <span class="green-text tiny">-Sharon French <br> Head of Beta Solutions</span>
-            <img src="static/img/wisdom_man.png" alt="Wise Little Guy">
+            <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/wisdom_man.png" alt="Wise Little Guy">
           </div></a>
         <div class="cta">
 
@@ -32,7 +32,7 @@
       <div class="box box--wide box--video">
         <div class="videoholder1" id="videoHolder">
 				</div>
-        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/etfs-retail.mp4" poster="static/img/etf_poster.png">
+        <!-- <video id="myVideo" @click="playOrPause" src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/videos/etfs-retail.mp4" poster="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/etf_poster.png">
           <div class="play-button"></div>
         </video> -->
         <div class="cta">
@@ -59,10 +59,10 @@
         </div>
         <div id="disclosure-buttons" class="disclosure-buttons">
           <div class="close" id="close" @click="closeDisclosure">
-            <img src="static/img/close.png" alt="Close">
+            <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/close.png" alt="Close">
           </div>
           <div class="updown">
-            <img src="static/img/up_down.png" alt="Scroll">
+            <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/up_down.png" alt="Scroll">
           </div>
         </div>
           <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
@@ -72,12 +72,12 @@
     <div class="box">
       <a href="https://ad.doubleclick.net/ddm/clk/320829619;149536111;g" target="_blank"><div class="image sharon">
           <span class="image-meta"><span class="name">Sharon&nbsp;French</span> <br><span class="tiny">Head&nbsp;of&nbsp;Beta <br> Solutions</span></span>
-          <img src="static/img/sharon_french.jpg" alt="Sharon French">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/sharon_french.jpg" alt="Sharon French">
         </div></a>
     </div>
     <div class="box">
       <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank"><div class="image challenge">
-          <img src="static/img/challenge_index.jpg" alt="Level II Tape">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/challenge_index.jpg" alt="Level II Tape">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
         </div></a>
       <div class="cta">

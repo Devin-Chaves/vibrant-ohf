@@ -25,7 +25,7 @@
       <div class="box box--wide box--video">
         <div class="videoholder2" id="videoHolder">
         </div>
-        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/growth-retail.mp4" poster="static/img/growth_poster.png">
+        <!-- <video id="myVideo" @click="playOrPause" src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/videos/growth-retail.mp4" poster="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/growth_poster.png">
           <div class="play-button"></div>
         </video> -->
         <div class="cta">
@@ -37,7 +37,7 @@
           <div class="copy">
             <span class="big big--hidden"><span class="green-text">challenge</span> <br>stereotypes.</span>
             <span>Oppenheimer International&nbsp;Growth&nbsp;Fund <br> <span class="green-text">(OIGYX)</span></span><br>
-            <img class="stars" src="static/img/stars.png" alt="Stars">
+            <img class="stars" src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/stars.png" alt="Stars">
             <span class="morningstar">Class Y shares rated 4 stars overall by Morningstar among 312 funds in the Foreign Large Growth category for the 3-, 5- and 10-Year periods ended 12/31/16 based on risk-adjusted performance.</span>
           </div>
         </a>
@@ -73,10 +73,10 @@
         </div>
         <div id="disclosure-buttons" class="disclosure-buttons">
           <div class="close" id="close" @click="closeDisclosure">
-            <img src="static/img/close.png" alt="Close">
+            <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/close.png" alt="Close">
           </div>
           <div class="updown">
-            <img src="static/img/up_down.png" alt="Scroll">
+            <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/up_down.png" alt="Scroll">
           </div>
         </div>
           <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
@@ -87,7 +87,7 @@
       <a href="https://ad.doubleclick.net/ddm/clk/320829617;149536111;e" target="_blank">
         <div class="image george">
           <span class="tiny image-meta"><span class="name">George&nbsp;Evans</span> <br> CIO of Equities</span>
-          <img src="static/img/george_evans.jpg" alt="George Evans">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/george_evans.jpg" alt="George Evans">
         </div>
       </a>
     </div>
@@ -95,7 +95,7 @@
       <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
         <div class="image challenge">
           <span class="big challenge-index"><span class="green-text">challenge</span> <br> the index.</span>
-          <img src="static/img/challenge_index.jpg" alt="Level II Tape">
+          <img src="http://demos.vibrantmedia.com/demos/verticals/DE/BD/Christo_Oosthuizen/vibrant-ohf/static/img/challenge_index.jpg" alt="Level II Tape">
         </div>
       </a>
     </div>
