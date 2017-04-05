@@ -31,6 +31,9 @@ html, body {
   color: white;
 }
 
+img {
+  border: none;
+}
 #app {
   padding: 0 20px;
   height: 100vh;
@@ -123,6 +126,7 @@ body {
 
 .sidebar img {
   max-width: 200px;
+  max-height: 100%;
 }
 .child-view {
   position: absolute;
@@ -207,6 +211,7 @@ body {
   .copy {
     padding: 20px 26px;
     font-size: 18px;
+    max-width: 180px;
 
     &--secondary {
       padding: 0 20px;
@@ -275,6 +280,8 @@ body {
   }
   .image {
     position: relative;
+    max-width: 190px;
+    max-height: auto;
 
     .image-meta {
       font-family: inherit;
@@ -449,6 +456,7 @@ body {
       position: absolute;
       left: 0;
       height: 100px;
+      width: auto;
       display: block;
     }
     .box-wrapper {
