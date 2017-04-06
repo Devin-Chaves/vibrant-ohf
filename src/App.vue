@@ -435,12 +435,17 @@ body {
 
   @media (max-width: 900px) {
 
+
+    #app {
+      margin: 0 auto;
+    }
+
     .challenge-view {
       position: relative;
       display: flex;
       flex-direction: column;
-      margin-top: -360px;
       width: 100%;
+      margin-top: -70%;
       margin-left: 0;
     }
     .challenge-open {
@@ -495,8 +500,11 @@ body {
     }
   }
   @media (max-width: 666px) {
+
+    #app {
+      margin: 0 auto;
+    }
     .challenge-view {
-      width: 100%;
       max-width: none;
     }
     .sidebar {
