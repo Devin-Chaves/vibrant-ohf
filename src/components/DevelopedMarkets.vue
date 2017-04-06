@@ -88,6 +88,8 @@
 
 <script>
 export default {
+  mounted() {
+  },
     methods: {
       playOrPause() {
         var x = document.getElementById("myVideo");
