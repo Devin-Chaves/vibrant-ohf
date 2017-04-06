@@ -29,9 +29,9 @@
       <div class="box box--wide box--video">
         <div class="videoholder2" id="videoHolder">
         </div>
-        <!-- <video id="myVideo" @click="playOrPause" src="static/videos/growth-retail.mp4" poster="static/img/growth_poster.png">
+        <video id="myVideo" @click="playOrPause" src="static/videos/growth-retail.mp4" poster="static/img/growth_poster.png">
           <div class="play-button"></div>
-        </video> -->
+        </video>
         <div class="cta">
 
         </div>

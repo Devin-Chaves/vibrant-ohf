@@ -2,8 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import 'script-loader!jquery/dist/jquery.min';
 
-window.jQuery = jQuery;
-window.$ = jQuery;
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
 
 import Vue from 'vue'
 import App from './App'

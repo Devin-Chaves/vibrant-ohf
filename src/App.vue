@@ -22,6 +22,9 @@
 <script>
 export default {
   name: 'app',
+    mounted() {
+      
+  }
 }
 </script>
 
@@ -312,7 +315,10 @@ body {
   .challenge {
     display: flex;
     flex-direction: row;
-    margin: -1px;
+
+    img {
+      width: 103%;
+    }
   }
   .challenge-index {
     padding: 20px;
