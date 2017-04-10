@@ -351,7 +351,7 @@ body {
     position: absolute;
     bottom: 7px;
     right: 17px;
-    font-size: 7px;
+    font-size: 9px;
     font-weight: 200;
   }
 
@@ -361,6 +361,8 @@ body {
     padding: 30px 15px 0 5px;
     background: black;
     position: absolute;
+    top: 0;
+    left: 0;
     max-width: 190px;
     max-height: 180px;
     .large {
