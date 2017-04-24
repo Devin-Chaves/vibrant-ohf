@@ -5,7 +5,7 @@
       <div class="box box--wide">
         <div class="copy">
           <div class="big">Reality:</div>
-          <div>From São Paulo in Brazil to Kenya’s Silicon Savannah, countries are developing their own tech hubs (with hundreds of millions in VC, to boot).</div>
+          <div>From São Paulo in Brazil to <br> Kenya’s Silicon Savannah, <br> countries are developing their <br> own tech hubs (with hundreds <br> of millions in VC, to boot).</div>
         </div>
       </div>
       <div class="box">
@@ -61,7 +61,8 @@
           <img src="static/img/close.png" alt="Close">
         </div>
         <div class="updown">
-          <img src="static/img/up_down.png" alt="Scroll">
+          <img src="static/img/up.png" alt="Scroll" @click="scrollUp">
+          <img src="static/img/down.png" alt="Scroll" @click="scrollDown">
         </div>
       </div>
         <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
@@ -116,9 +117,19 @@ export default {
         x.classList.remove('is-opened')
         y.classList.remove('is-opened')
         z.classList.remove('is-closed')
-      }
+      },
+      scrollUp() {
+        $('#disclosure').animate({
+          scrollTop: "-=40px"
+        });
+      },
+  		scrollDown() {
+        $('#disclosure').animate({
+          scrollTop: "+=40px"
+        });
       }
     }
+  }
 </script>
 
 <style lang="scss" scoped>
@@ -129,6 +140,7 @@ export default {
       margin-top: 10px;
     }
     .image-meta {
+      font-size: 10px;
       top: 15%;
       left: 10px;
       .name {

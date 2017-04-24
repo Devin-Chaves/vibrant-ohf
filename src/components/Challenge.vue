@@ -70,16 +70,20 @@
     <div class="sidebar">
       <img class="img-saver" src="static/img/oppenheimer.png" alt=""/>
       <transition name="fade">
-        <router-link to='/challenge' v-if="$route.name !== 'challenge'">
-          <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
-          <div class="next-challenge">
-            <div class="arrow"></div><span>Next Challenge</span>
-          </div>
+        <div v-if="$route.name !== 'challenge'">
+          <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
+            <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
+          </a>
+          <router-link to='/challenge'>
+            <div class="next-challenge">
+              <div class="arrow"></div><span>Next Challenge</span>
+            </div>
         </router-link>
+      </div>
       </transition>
       <transition name="fade">
         <div class="challenge-open" v-if="$route.name == 'challenge'">
-          <a href="http://www.oppenheimerfunds.com/ico/challengetheindex" target="_blank">
+          <a href="https://ad.doubleclick.net/ddm/clk/320520044;149536111;m" target="_blank">
             <img src="static/img/oppenheimer.png" alt="Oppenheimer Funds">
           </a>
         </div>

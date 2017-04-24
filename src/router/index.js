@@ -22,7 +22,7 @@ export default new Router({
   mode: 'hash',
   base: __dirname,
   routes: [
-    { path: '/', component: Home, name: 'home' },
+    { path: '/', redirect: { path: '/challenge' }},
     { path: '/challenge', component: Challenge,
       children: [
         { path: '', component: Default, name: 'challenge'},

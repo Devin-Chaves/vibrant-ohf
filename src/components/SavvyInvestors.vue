@@ -5,7 +5,7 @@
       <div class="box box--wide">
       <div class="copy">
             <div class="big">Reality:</div>
-            <div>Obsession with trends and headlines can overvalue stocks. And what gossip gives, gossip can take away.</div>
+            <span>Obsession with trends <br> and headlines can overvalue <br> stocks. And what gossip <br> gives, gossip can take away.</span>
           </div>
       </div>
       <div class="box">
@@ -21,7 +21,7 @@
       <a href="https://ad.doubleclick.net/ddm/clk/320829618;149536111;f" target="_blank">
         <div class="copy">
           <span>“You're only <br> as strong as your weakest stock.” </span>
-          <span class="green-text tiny">-Vince Lowry <br> Head of Revenue Weighted Strategy Team </span>
+          <span class="green-text tiny">-Vince Lowry <br> Head of Revenue Weighted Strategy Team, Portfolio Manager </span>
         </div></a>
       </div>
       <div class="box box--wide box--video">
@@ -61,7 +61,8 @@
             <img src="static/img/close.png" alt="Close">
           </div>
           <div class="updown">
-            <img src="static/img/up_down.png" alt="Scroll">
+            <img src="static/img/up.png" alt="Scroll" @click="scrollUp">
+            <img src="static/img/down.png" alt="Scroll" @click="scrollDown">
           </div>
         </div>
           <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
@@ -71,7 +72,7 @@
     <div class="box vince">
     <a href="https://ad.doubleclick.net/ddm/clk/320829618;149536111;f" target="_blank">
       <div class="image">
-        <span class="image-meta"><span class="name">Vince Lowry</span> <br>Head of Revenue <br> Weighted Strategy Team</span>
+        <span class="image-meta"><span class="name">Vince Lowry</span> <br>Head of Revenue <br> Weighted Strategy Team, <br> Portfolio Manager</span>
         <img src="static/img/vince_lowry.jpg" alt="Vince Lowry">
       </div></a>
     </div>
@@ -117,6 +118,16 @@ export default {
         x.classList.remove('is-opened')
         y.classList.remove('is-opened')
         z.classList.remove('is-closed')
+      },
+      scrollUp() {
+        $('#disclosure').animate({
+          scrollTop: "-=40px"
+        });
+      },
+  		scrollDown() {
+        $('#disclosure').animate({
+          scrollTop: "+=40px"
+        });
       }
     }
   }
@@ -132,6 +143,7 @@ export default {
     margin-left: 19px;
   }
   .image-meta {
+    font-size: 9px;
     margin-top: 2rem;
     .name {
       line-height: .5

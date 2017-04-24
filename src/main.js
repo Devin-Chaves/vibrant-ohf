@@ -6,9 +6,16 @@ global.jQuery = require('jquery');
 var $ = global.jQuery;
 window.$ = $;
 
+// import { registerOpen } from './utils/core';
+// registerOpen();
+
+// import { registerClose } from './utils/core';
+// utils.bind(closeButton, registerClose)
+
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+
 
 
 Vue.config.productionTip = false

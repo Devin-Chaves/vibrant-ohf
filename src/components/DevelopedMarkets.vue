@@ -5,7 +5,7 @@
       <div class="box box--wide">
         <div class="copy">
           <div class="big">Reality:</div>
-          <div>Emerging markets can host the Olympics. Developed markets can upend their governments with a single vote. We live in a global market where labels are increasingly short-sighted.</div>
+          <div>Emerging markets can <br> host the Olympics. Developed <br> markets can upend their <br> governments with a single <br> vote. We live in a global <br> market where labels are <br> increasingly short-sighted.</div>
         </div>
       </div>
       <div class="box">
@@ -62,7 +62,8 @@
           <img src="static/img/close.png" alt="Close">
         </div>
         <div class="updown">
-          <img src="static/img/up_down.png" alt="Scroll">
+          <img src="static/img/up.png" alt="Scroll" @click="scrollUp">
+          <img src="static/img/down.png" alt="Scroll" @click="scrollDown">
         </div>
       </div>
         <span class="disclosure-open" id="disclosure-open" @click="displayDisclosure">
@@ -88,88 +89,97 @@
 
 <script>
 export default {
-  mounted() {
-  },
-    methods: {
-      playOrPause() {
-        var x = document.getElementById("myVideo");
-        x.addEventListener('ended',function(){
-          x.load();
-          x.height = 220;
-        },false);
-        if (x.paused) {
-          x.play();
-          x.height = 180
-       } else {
-          x.pause();
-          }
-      },
-    displayDisclosure() {
-      var x = document.getElementById('disclosure-buttons')
-      var y = document.getElementById('disclosure');
-      var z = document.getElementById('disclosure-open')
-      x.classList.add('is-opened')
-      y.classList.add('is-opened');
-      z.classList.add('is-closed');
+	mounted() {},
+	methods: {
+		playOrPause() {
+			var x = document.getElementById("myVideo");
+			x.addEventListener('ended', function() {
+				x.load();
+				x.height = 220;
+			}, false);
+			if (x.paused) {
+				x.play();
+				x.height = 180
+			} else {
+				x.pause();
+			}
+		},
+		displayDisclosure() {
+			var x = document.getElementById('disclosure-buttons')
+			var y = document.getElementById('disclosure');
+			var z = document.getElementById('disclosure-open')
+			x.classList.add('is-opened')
+			y.classList.add('is-opened');
+			z.classList.add('is-closed');
+		},
+		closeDisclosure() {
+			var x = document.getElementById('disclosure-buttons')
+			var y = document.getElementById('disclosure')
+			var z = document.getElementById('disclosure-open')
+			x.classList.remove('is-opened')
+			y.classList.remove('is-opened')
+			z.classList.remove('is-closed')
+		},
+    scrollUp() {
+      $('#disclosure').animate({
+        scrollTop: "-=40px"
+      });
     },
-    closeDisclosure() {
-      var x = document.getElementById('disclosure-buttons')
-      var y = document.getElementById('disclosure')
-      var z = document.getElementById('disclosure-open')
-      x.classList.remove('is-opened')
-      y.classList.remove('is-opened')
-      z.classList.remove('is-closed')
-    }
+		scrollDown() {
+      $('#disclosure').animate({
+        scrollTop: "+=40px"
+      });
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>
-  .hemant {
+.hemant {
     background: #f3f3f3;
     img {
-      margin-left: 10px;
-      margin-top: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
     .image-meta {
-      top: 15%;
-      left: 10px;
-      .name {
-        line-height: .1;
-      }
+        top: 15%;
+        left: 10px;
+        font-size: 10px;
+        .name {
+            line-height: 0.1;
+        }
     }
-  }
-  .exciting {
+}
+.exciting {
     display: inline-block;
     font-size: 13px;
-  }
-  .quote {
+}
+.quote {
     font-size: 14px;
-  }
-  @media (max-width: 666px) {
+}
+@media (max-width: 666px) {
 
-     .box {
-       display: none;
-       position: relative;
-     }
-
+    .box {
+        display: none;
+        position: relative;
+    }
     .box:nth-of-type(1) {
-      display: flex;
-      width: 190px;
-      order: -2;
+        display: flex;
+        width: 190px;
+        order: -2;
     }
     .box:nth-of-type(3) {
-      display: flex;
+        display: flex;
 
     }
     .box:nth-of-type(4) {
-      display: flex;
-      order: -2;
-      width: 190px;
+        display: flex;
+        order: -2;
+        width: 190px;
     }
     .box:nth-of-type(5) {
-      display: flex;
-      order: -2;
+        display: flex;
+        order: -2;
     }
-  }
+}
 </style>

@@ -4,7 +4,7 @@
 
       <div class="box box--primary">
         <div class="copy">
-          <span>"Silicon Valley <br> is the future of tech."</span>
+          <span>"Silicon Valley <br> is the future <br>of  tech."</span>
           <div class="cta">
             <router-link :to="{name: 'silicon-valley'}"><a class="Button Button--primary">CHALLENGE</a></router-link>
           </div>
@@ -12,7 +12,7 @@
       </div>
       <div class="box box--secondary">
         <div class="copy">
-          <span>"Seniors are<br> a diminishing investment opportunity."</span>
+          <span>"Seniors are<br> a diminishing <br> investment<br> opportunity."</span>
           <div class="cta">
             <router-link :to="{name: 'diminishing-investments'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
@@ -42,7 +42,7 @@
       </div>
       <div class="box box--secondary">
         <div class="copy">
-          <span>"Investment opportunities disappear <br> during volatility."</span>
+          <span>"Investment opportunities <br> disappear <br> during volatility."</span>
           <div class="cta">
             <router-link :to="{name: 'investment-opportunities'}"><a class="Button Button--secondary">CHALLENGE</a></router-link>
           </div>
@@ -58,7 +58,7 @@
       </div>
       <div class="box box--primary">
         <div class="copy">
-          <span>"Developed markets are reliable. Emerging markets are risky."</span>
+          <span>"Developed <br>markets are <br> reliable. Emerging markets are risky."</span>
           <div class="cta">
             <router-link :to="{name: 'developed-markets'}"><a class="Button Button--primary">CHALLENGE</a></router-link>
           </div>

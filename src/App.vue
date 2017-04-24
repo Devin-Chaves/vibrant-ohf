@@ -24,7 +24,9 @@
 export default {
   name: 'app',
     mounted() {
-      
+  },
+  methods: {
+
   }
 }
 </script>
@@ -33,6 +35,7 @@ export default {
 html, body {
   font-family: 'PragmaticaW01-Condensed1061371', Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: white;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 img {
@@ -130,7 +133,7 @@ body {
 
 .sidebar img {
   max-width: 200px;
-  max-height: 100%;
+  max-height: 132px;
 }
 .child-view {
   position: absolute;
@@ -201,6 +204,9 @@ body {
         align-items: center;
         justify-content: center;
         max-width: 392px;
+        span {
+          flex-shrink: 1;
+        }
         .big {
           margin-right: 40px;
         }
@@ -219,6 +225,7 @@ body {
     max-width: 180px;
 
     &--secondary {
+      font-family: 'PragmaticaW01-CondLight';
       padding: 0 20px;
       font-size: 12px;
     }
@@ -280,13 +287,13 @@ body {
   }
   .morningstar {
     display: inline-block;
-    font-size: 8px;
+    font-size: 9px;
     line-height: 1.3;
   }
   .image {
     position: relative;
     max-width: 190px;
-    max-height: auto;
+    max-height: 180px;
 
     .image-meta {
       font-family: inherit;
@@ -294,6 +301,9 @@ body {
       left: 10px;
       color: black;
       font-weight: 400;
+      .tiny {
+        font-size: 11px;
+      }
     }
     .name {
       font-size: 12px;
@@ -323,6 +333,7 @@ body {
   }
   .challenge-index {
     padding: 20px;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     line-height: 1.1
@@ -334,7 +345,7 @@ body {
     }
   }
   video {
-    margin: 0 auto;
+    left: 0;
     max-height: 220px;
   }
   .child {
@@ -358,32 +369,50 @@ body {
     position: absolute;
     bottom: 7px;
     right: 17px;
-    font-size: 7px;
+    font-size: 9px;
     font-weight: 200;
   }
 
   .disclosure {
+    // Hide scrollbars
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+
+    font-family: Arial !important;
     display: none;
     overflow: scroll;
-    padding: 30px 15px 0 5px;
+    padding: 11px 25px 0 5px;
     background: black;
     position: absolute;
+    top: 0;
+    left: 0;
     max-width: 190px;
     max-height: 180px;
+
+    &::-webkit-scrollbar {
+    display: none;  // Safari and Chrome
+    }
+
+    strong {
+      font-family: Arial;
+      font-weight: 900;
+      line-height: 1.2;
+    }
     .large {
+      font-family: Arial !important;
       display: inline-block;
-      font-size: .71rem;
+      font-size: 12px;
       font-weight: 400;
       font-style: italic;
-      line-height: 1.25
+      line-height: 1.2;
     }
     .small {
-      font-family:'PragmaticaW01-CondLight';
+      font-family: Arial !important;
       padding-top: 8px;
       display: inline-block;
-      font-size: 10px;
+      font-size: 8px;
       line-height: 1.2;
-      font-weight: 200;
+      font-weight: 100;
       padding-bottom: 40px;
       }
     }
@@ -392,18 +421,21 @@ body {
     }
   .close {
     position: absolute;
-    top: 5px;
-    right: 7px;
+    top: 8px;
+    right: 8px;
     img {
-      height: 10px;
+      height: 9px;
+      width: auto;
     }
   }
   .updown {
     position: absolute;
-    bottom: 5px;
-    right: 7px;
+    bottom: 8px;
+    right: 8px;
     img {
-      height: 20px;
+      display: block;
+      width: 11px;
+      height: auto;
     }
   }
   .is-opened {
@@ -419,6 +451,7 @@ body {
   }
   .stars {
     height: 15px;
+    width: auto;
     padding: 3px 0;
   }
   .copyright, .copyright-hidden {
@@ -502,6 +535,11 @@ body {
     }
   }
   @media (max-width: 666px) {
+
+    .box {
+
+
+    }
     .challenge-view {
       width: 100%;
       max-width: none;
@@ -517,6 +555,8 @@ body {
       top: 390px;
     }
     .box {
+      height: 150px;
+      width: 160px;
 
       &--primary {
         background: white;
@@ -527,7 +567,7 @@ body {
         background: black;
       }
       &--wide {
-        width: 392px;
+        width: 160px;
         background: #bad61e;
         color: black;
         display: flex;
@@ -539,6 +579,7 @@ body {
           flex-direction: column;
           align-items: flex-start;
           justify-content: flex-start;
+          max-width: 160px;
           .big {
             margin-right: 0;
             padding-bottom: 8px;
